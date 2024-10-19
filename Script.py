@@ -115,7 +115,7 @@ User - {}"""
 ⭐ Rating: {rating} / 10</b>
 """
 
-    FILE_CAPTION = """<a href="https://t.me/moviesandwebserieshubOrzz"><b>{file_caption}</b></a>\n\n𝖩𝗈𝗂𝗇➥ 「<a href="https://t.me/MAWHOrzzFlix">~𝑴𝑨𝑾𝑯 𝑶𝒓𝒛𝒛⁠•𝙊𝙧𝙞𝙜𝙞𝙣𝙖𝙡𝙨</a>」"""
+    FILE_CAPTION = """<a href="https://t.me/moviesandwebserieshubOrzz"><b>{file_name}</b></a>\n\n𝖩𝗈𝗂𝗇➥ 「<a href="https://t.me/MAWHOrzzFlix">~𝑴𝑨𝑾𝑯 𝑶𝒓𝒛𝒛⁠•𝙊𝙧𝙞𝙜𝙞𝙣𝙖𝙡𝙨</a>」"""
     
 
     ALRT_TXT = """ᴊᴀʟᴅɪ ʏᴇʜᴀ sᴇ ʜᴀᴛᴏ !"""
