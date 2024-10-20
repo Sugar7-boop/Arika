@@ -171,7 +171,6 @@ async def send_movie_updates(bot, file_name, caption, file_id):
         ]]
 
         reply_markup = InlineKeyboardMarkup(btn)
-try:
     await bot.send_message(
         movie_update_channel if movie_update_channel else MOVIE_UPDATE_CHANNEL, 
         text=caption_message, 
