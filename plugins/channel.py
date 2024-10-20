@@ -94,3 +94,4 @@ try:
 except Exception as e:
     print('Failed to send movie update. Error - ', e)
     await bot.send_message(LOG_CHANNEL, f'Failed to send movie update. Error - {e}')
+   
