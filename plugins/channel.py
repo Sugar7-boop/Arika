@@ -87,11 +87,11 @@ async def send_movie_updates(bot, file_name, caption, file_id):
         reply_markup = InlineKeyboardMarkup(btn)
         if poster_url:
             await bot.send_message(movie_update_channel if movie_update_channel else MOVIE_UPDATE_CHANNEL, 
-                                 photo=poster_url, caption=caption_message, reply_markup=reply_markup)
+                                 text = caption_message, reply_markup=reply_markup)
         else:
             no_poster = "https://telegra.ph/file/88d845b4f8a024a71465d.jpg"
             await bot.send_message(movie_update_channel if movie_update_channel else MOVIE_UPDATE_CHANNEL, 
-                                 photo=no_poster, caption=caption_message, reply_markup=reply_markup)  
+                                 text = caption_message, reply_markup=reply_markup)  
     except Exception as e:
         print('Failed to send movie update. Error - ', e)
         await bot.send_message(LOG_CHANNEL, f'Failed to send movie update. Error - {e}')
